@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blogi
+---
+<h1>Blogi</h1>
+
+<div id="blogilista">
+{% for post in site.categories.blogi %}
+<article>
+  <a href="{{ post.url }}">
+    <h2>{{ post.title }}</h2>
+    <p class="aika"><time datetime="{{ post.date }}">{{ post.date | date: "%d.%m.%Y" }}</time></p>
+    <p>{{ post.excerpt }}</p>
+  </a>
+</article>
+{% endfor %}
+</div>
