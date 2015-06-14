@@ -119,7 +119,7 @@ div#main ul.painikkeet li {
   display: inline;
 }
 div#main ul.painikkeet li a {
-  display: block;
+  display: inline-block;
   padding: 1em;
   width: 8em;
   background: #2173be;
