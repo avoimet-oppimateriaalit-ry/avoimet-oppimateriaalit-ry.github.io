@@ -141,7 +141,7 @@ div#main div#blogilista article {
   border-top: 1px solid #534a00;
 }
 div#main div#blogilista article a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   -webkit-transition: all 0.2s ease-out;
